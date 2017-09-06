@@ -1,0 +1,297 @@
+/* wszystkie zdjęcia pochodzą ze strony pixabay.com */
+
+body {
+	margin:0;
+	background-color:lightgrey;
+}
+
+#container {
+	width:94%;
+	min-height:100%;
+	margin:auto;
+	background-color:white;
+	-webkit-box-shadow: -5px 0px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 0px 19px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 0px 19px 0px rgba(0,0,0,0.75);
+
+}
+
+.top {
+	height: 6rem;
+
+}
+
+.left {
+	padding:1.5rem 3rem;
+	font-size:1.7rem;
+	color:#363636;
+	width:40%;
+	font-family: 'Roboto', sans-serif;
+	float:left;
+	box-sizing: border-box;
+}
+
+.right {
+	padding:0.7rem 4rem;
+	color:#363636;
+	width:60%;
+	font-family: 'Roboto', sans-serif;
+	float:right;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+
+
+.right>ul>li
+{
+	display:inline-block;	
+	font-size:1.5rem;
+	padding-right:0.7rem;
+	padding-left: 0.7rem;
+	border-right: 1px solid #99CC99;
+}
+
+.right>ul>li>a
+{
+	text-decoration: none;
+	color:#363636;
+}
+
+.right>ul>li>a:hover {
+	background-color:#000066;
+	color:white;
+	border-radius: 0.4rem;
+
+}
+
+.entry_photo {
+	background: url("pic/portrait/photo1.jpg");
+	height:40rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h2 {
+	text-align: center;
+	color:#363636;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	margin-top: 5.5rem;
+}
+#about_me{
+	padding-bottom:10rem;
+}
+
+.aboutme {
+	width:65%;
+	margin:auto;
+	height:30rem;
+}
+
+.gif {
+	float:left;
+	width:40%;
+	height:25rem;
+	background-image: url("pic/portrait/2.jpg");
+	background-size: cover;
+	}
+
+
+    
+  .text {
+  	float:left;
+  	width:45%;
+  	text-align: justify;
+  	padding-left:1rem;
+  	font-family: 'Lato', sans-serif;
+  	color:#363636;
+  }
+
+  hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 3.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width:26rem;
+} 
+
+.scroll_photo {
+	background-image: url("pic/portrait/lovers.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:30rem;
+	background-attachment: fixed;
+}
+#offer>.offer_list {
+	width:80%;
+	margin:auto;
+	padding-top: 3rem;
+	padding-bottom: 10rem;
+}
+#offer > .offer_list >li {
+	list-style-type: none;
+	display:inline-block;
+	font-size:1.5rem;
+	width:15rem;
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 0.2rem;
+
+}
+
+h3 {
+
+font-size: 1.6rem;}
+
+h4 {
+	font-size: 0.8rem;
+	text-align: center;
+	margin:0.8rem;
+}
+
+
+#offer>ul>li>a {
+	text-decoration: none;
+	color:#A4A4A4;
+
+}
+
+#offer>ul>li>a:hover {
+	
+	color:#363636;
+}
+
+.scroll_photo2 {
+	background-image: url("pic/portrait/pic2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:30rem;
+	background-attachment: fixed;
+}
+
+.project {
+	display: inline-block;
+	margin:1rem;
+	overflow: hidden;
+	padding-top: 3rem;
+
+	
+}
+
+#portfolio {
+	padding-bottom: 10rem;
+}
+
+.podpis {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 1rem;
+}
+
+.project >figure> a {
+	filter: grayscale(100%);
+}
+
+.project>figure>a:hover {
+	filter: grayscale(0%);
+}
+
+.scroll_photo3 {
+	background-image: url("pic/portrait/friends2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:30rem;
+	background-attachment: fixed;
+}
+
+.dane {
+	width:40%;	
+	color:#ADADAD;
+	display: inline-block;
+	vertical-align:top;
+	box-sizing: border-box;
+	padding-left: 10rem;
+
+
+}
+
+.h3 {
+	font-family:  'Roboto', sans-serif;
+	margin-bottom: 0;
+	
+
+}
+.inf {
+	display: inline-block;
+	font-size:1rem;
+	padding-left: 0.6rem;
+	padding-top:0;
+	margin-top:0;
+}
+
+.form {
+	width:40%;	
+	color:#ADADAD;
+	display: inline-block;
+	vertical-align:top;
+	box-sizing: border-box;
+}
+
+
+input {
+	margin-bottom: 1rem;
+	padding:0;
+	width:35rem;
+	background-color: #D2D2D2;
+	border-radius: 5px;
+	font-size:0.8rem;
+	color:white;
+	height:2rem;
+	color:white;
+}
+
+textarea {
+	width:35rem;
+	background-color: #D2D2D2;
+	border-radius: 5px;
+	font-size:0.8rem;
+	color:white;
+	height:6rem;
+}
+
+.btn {
+	background-color: #7E7E7E;
+	color:white;
+}
+
+input:focus, textarea:focus {
+	color:black;
+	font-family: 'Lato', sans-serif;
+
+}
+
+footer {
+	height:7rem;
+
+}
+.icons {
+	padding-top:4rem;
+	text-align: center;
+
+}
+
+
+.icons>a {
+	text-decoration: none;
+	color:grey;
+}
+
+.icons>a:hover {
+	color:black;
+}
